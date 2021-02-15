@@ -66,6 +66,10 @@ section{
   background-color: #1ce38b;
   height: 450px;
   width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 section div{
   width: 100%;
@@ -92,9 +96,19 @@ dd{
 dd a {
   padding: 3px 0 15px;
 }
+dd a:hover{
+  color: #1dc671;
+}
 dl{
   padding: 0 15px;
   margin: 0;
+}
+.juridique{
+  display: flex;
+}
+
+.copyright{
+  right:0;
 }
 /*path{
   color: white;
